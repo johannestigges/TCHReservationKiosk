@@ -9,6 +9,6 @@ public class TCHReservationKioskController {
 
 	@GetMapping("/add")
 	public String index(Model model) {
-		return "overview";
+		return "addReservation";
 	}
 }
